@@ -1,0 +1,115 @@
+body {
+    background-color:rgb(255, 255, 255);
+    text-align: center;
+}
+#heading {
+    color:#8cbeea;
+    font-size:50;
+    font-family: 'Shrikhand', serif;
+    font-weight:lighter;
+}
+#heading2 {
+    display:inline-block;
+    font-family: 'Noto Emoji', sans-serif;
+    color:#001c4b;
+    margin-top:-5px;
+    margin-bottom:6px;
+}
+#heading3 {
+    display:inline;
+    margin-left:20px;
+    font-family: 'Noto Emoji', sans-serif;
+    color:#001c4b;
+}
+#heading4 {
+    display:inline;
+    margin-left:20px;
+    font-family: 'Noto Emoji', sans-serif;
+    color:#001c4b;
+}
+#heading5 {
+    display:inline;
+    margin-left:20px;
+    font-family: 'Noto Emoji', sans-serif;
+    color:#001c4b;
+}
+#heading6 {
+    display:inline;
+    margin-left:20px;
+    font-family: 'Noto Emoji', sans-serif;
+    color:#001c4b;
+}
+#heading7 {
+    display:inline;
+    margin-left:20px;
+    font-family: 'Noto Emoji', sans-serif;
+    color:#001c4b;
+}
+#note {
+    display:inline-block;
+    margin-left:20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#001c4b;
+    width:500px;
+}
+#webcamlabel {
+    color:#8cbeea;
+    font-size:40;
+    font-family: 'Shrikhand', serif;
+    font-weight:lighter;
+    margin-left:-620;
+}
+#outputlabel {
+    color:#8cbeea;
+    font-size:40;
+    font-family: 'Shrikhand', serif;
+    font-weight:lighter;
+    margin-left:600;
+    margin-top:-445;
+}
+#capturebutton {
+    margin-right:-50;
+    margin-left:-683;
+    border-style: none;
+    background-color:#3d68b1;
+    height:45px;
+    width:120px;
+    color:white;
+    font-size:25px;
+    font-weight:bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#capture:hover {
+    background-color:#22498b;
+}
+#predict {
+    border-style: none;
+    background-color:#3d68b1;
+    height:45px;
+    width:210px;
+    color:white;
+    font-size:21px;
+    font-weight:bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top:80;
+    margin-left:480;
+    margin-right:-100;
+}
+#predict:hover {
+    background-color:#22498b;
+}
+#camera {
+    width:300;
+    height:300;
+    margin-right:-50;
+    margin-left:180;
+    margin-bottom:10px;
+    margin-top:-50px;
+}
+#capture {
+    width:350;
+    height:200;
+    margin-left:590;
+    margin-bottom:10px;
+    margin-top:30px;
+}

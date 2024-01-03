@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Emotion to Emoji</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Emoji&display=swap" rel="stylesheet">
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    </head>
+    <body>
+        <br>
+        <h1 id="heading">emotion to emoji</h1>
+        <h1 id="heading2">🙂</h1>
+        <h1 id="heading3">☹</h1>
+        <h1 id="heading4">😠</h1>
+        <h1 id="heading5">🤢</h1>
+        <h1 id="heading6">😨</h1>
+        <h1 id="heading7">😲</h1>
+        <br>
+        <br>
+        <h3 id="note">Welcome to Emotion to Emoji! To begin, turn on your webcam and express an emotion. When you're ready, click on the "Capture" button and the AI will do its job.</h3>
+        <br>
+        <h1 id="webcamlabel">webcam:</h1>
+        <div id="camera">
+
+        </div>
+        <button id="capturebutton" onclick="captureimage()">Capture</button>
+        <h1 id="outputlabel">output:</h1>
+        <div id="outputdiv"></div>
+        <button id="predict" onclick="predictemotion()">Predict My Emotion</button>
+        <h3 id="emotion"></h3>
+        <h3 id="emoji"></h3>
+        <script src="main.js"></script>
+    </body>
+    </html>
